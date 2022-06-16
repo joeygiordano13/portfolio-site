@@ -1,0 +1,255 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <title>Joseph Giordano</title>
+</head>
+<body class="font-quicksand">
+<!-- intro section -->
+    <div id="homepage" class="h-1/2 lg:h-screen bg-gradient-to-t from-indigo-200 relative overflow-hidden">
+        <!-- <h1 class="text-3xl text-red-500 sm:text-blue-500">TEST</h1> -->
+        <!-- navbar -->
+        <nav class="w-full fixed top-0 bg-white z-10">
+            <div class="container mx-auto py-5 flex items-center justify-between">
+                <div class="flex items-center gap-6">
+                    <img class="w-24 h-24" src="./img/logo.png" alt=""/>
+                    <span class="text-lg font-bold text-indigo-900">Joseph Giordano</span>
+                </div>
+                <ul class="hidden md:flex space-x-10 text-gray-600 font-bold text-sm uppercase">
+                    <li class="hover:text-gray-500">
+                        <a href="#homepage">homepage</a>
+                    </li>
+                    <li class="hover:text-gray-500">
+                        <a href="#about">about me</a>
+                    </li>
+                    <li class="hover:text-gray-500">
+                        <a href="#portfolio">portfolio</a>
+                    </li>
+                    <li class="hover:text-gray-500">
+                        <a href="#contact">contact</a>
+                    </li>
+                </ul>
+                <!-- add dark mode -->
+                <!--                -->
+                <!-- <span>3</span> -->
+                <!-- hamburger menu -->
+                <div id="hamburger" class="space-y-1 md:hidden cursor-pointer z-20">
+                    <div class="w-6 h-0.5 bg-black"></div>
+                    <div class="w-6 h-0.5 bg-black"></div>
+                    <div class="w-6 h-0.5 bg-black"></div>
+                </div>
+                <ul id="menu" class="hidden bg-indigo-900 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center capitalize">
+                    <li>
+                        <a href="#homepage">homepage</a>
+                    </li>
+                    <li>
+                        <a href="#about">about me</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- intro content -->
+        <!-- image -->
+        <img class="absolute bottom-0 right-0 lg:left-0 mx-auto h-5/6 object-cover" src="./img/joey-no-bg.png" alt="">
+        <!-- circle -->
+        <div class="hidden lg:block absolute -bottom-1/4 w-big h-big bg-indigo-900 rounded-full -z-10"></div>
+        <!-- animated text -->
+        <div class="absolute top-1/2 left-5 text-xl sm:left-10 sm:text-4xl md:l-1/4 md:text-6xl lg:left-5 xl:left-48 xl:text-7xl">
+            <span class="text-gray-500">Freelance</span>
+            <p id="option-text" class="text-red-500"></p>
+        </div>
+        <!-- texts -->
+        <div class="hidden lg:flex flex-col absolute top-0 bottom-0 m-auto right-10 bg-white p-6 h-fit w-1/3 flex-col gap-5 rounded-lg shadow-xl">
+            <h1 class="text-4xl font-bold text-indigo-900">Hi, I'm Joey</h1>
+            <p class="to-gray-400">
+                I'm a fullstack developer and AI-enthusiast with a Computer Science BS and Minor in Mathematics from the UCF Burnett Honors College. 
+                I am currently seeking work as a new-grad in the greater Tampa and Orlando-areas, or remote opportunities.
+            </p>
+            <div class="flex-row space-x-3">
+                <a class="bg-indigo-600 text-white text-xl px-3 py-2 w-fit rounded-md font-semibold" href="#contact">Hire Me</a>
+                <a class="bg-indigo-600 text-white text-xl px-3 py-2 w-fit rounded-md font-semibold" href="./assets/Giordano-Joseph-SoftwareDeveloper.pdf" title="" download>Download Résumé</a>    
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about" class="px-10">
+        <div class="container mx-auto py-40 flex flex-col-reverse lg:flex-row gap-20">
+            <!-- left side -->
+            <!-- <div class="relative"> -->
+                <!-- <div class="h-full rounded-full overflow-hidden"> -->
+                    <!-- <img class="h-full" src="./img/statue-picture-joey.jpg" alt=""> -->
+                <!-- </div> -->
+            <!-- </div> -->
+            <!-- right side -->
+            <div class="my-auto flex flex-col gap-3">
+                <h1 class="text-indigo-600 font-bold">ABOUT ME</h1>
+                <h1 class="text-3xl font-medium">Fullstack Developer</h1>
+                <h1 class="text-3xl font-medium">Robust solutions & designs</h1>
+                <p class="text-gray-400">
+                    I am designing applications for clients who need digital solutions, fast. 
+                    I have a background in academic research, project management, and Agile development. 
+                    I am currently studying DevOps methodology, Backend engineering, and Artificial Intelligence.
+                </p>
+                <p class="text-gray-400 top-10">
+                    My hobbies include songwriting, reading, playing sports, and overanalyzing movies. I am the bass guitarist for the alt-rock band, <a class="text-blue-400" href="https://open.spotify.com/artist/2ERW7uu4enOW32cSNva7n8">Tension Head</a>.
+                </p>
+                <h2 class="text-gray-500 font-medium">HTML, JavaScript (&TS), Tailwind CSS</h2>
+                <div class="w-full bg-gray-200 h-1.5 rounded-md">
+                    <div class="w-4/5 bg-indigo-600 h-1.5 rounded-md"></div>
+                </div>
+                <h2 class="text-gray-500 font-medium">Java</h2>
+                <div class="w-full bg-gray-200 h-1.5 rounded-md">
+                    <div class="w-4/5 bg-indigo-600 h-1.5 rounded-md"></div>
+                </div>
+                <h2 class="text-gray-500 font-medium">C/C++</h2>
+                <div class="w-full bg-gray-200 h-1.5 rounded-md">
+                    <div class="w-3/5 bg-indigo-600 h-1.5 rounded-md"></div>
+                </div>
+                <h2 class="text-gray-500 font-medium">Python</h2>
+                <div class="w-full bg-gray-200 h-1.5 rounded-md">
+                    <div class="w-2/5 bg-indigo-600 h-1.5 rounded-md"></div>
+                </div>
+                <h2 class="text-gray-500 font-medium">React, React Native</h2>
+                <div class="w-full bg-gray-200 h-1.5 rounded-md">
+                    <div class="w-3/5 bg-indigo-600 h-1.5 rounded-md"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- to add: services -->
+    <!-- <div id="services"> -->
+    <!-- portfolio -->
+    <div id="portfolio">
+        <div class="container mx-auto">
+            <!-- top -->
+            <div class="flex flex-col gap-3 items-center">
+              <h1 class="text-indigo-600 font-bold">PORTFOLIO</h1>
+              <h1 class="text-3xl">Publications</h1>
+              <p class="w-1/2 text-center text-gray-400">
+                The academic research I've been involved in is currently through the Evolutionary Computation Lab @UCF. You can view publications 
+                I have contributed to through <a class="clickable text-blue-400" href="https://scholar.google.com/citations?user=9BmpG-sAAAAJ&hl=en&oi=ao">Google Scholar</a>.
+              </p>
+              <h1 class="text-3xl">Projects & Works in Progress</h1>
+              <p class="w-1/2 text-center text-gray-400">
+                Here are a few projects I have worked on. This portion of the site is still in progress.
+              </p>
+            </div>
+            <!-- bottom -->
+            <div class="p-5 sm:p-0 flex flex-wrap justify-between">
+              <!-- card -->
+              <div
+                class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110"
+              >
+                <h1>Visionome</h1>
+                <img src="./img/vis-chrom.png"/>
+              </div>
+              <!-- card -->
+              <div
+                class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110"
+              >
+                <h1>BudgetBuddies</h1>
+                <img src="./img/budget-buddy.png" />
+              </div>
+              <!-- card -->
+              <div
+                class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110"
+              >
+                <h1>Face Mask Detector</h1>
+                <img src="./img/mask-recognition.png" />
+              </div>
+              <!-- card -->
+              <div
+                class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110"
+              >
+                <h1>Contact Manager REST API</h1>
+                <img src="./img/contact-manager.png" />
+              </div>
+              <!-- card -->
+              <div
+                class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110"
+              >
+                <h1>Decentralized Storage System</h1>
+                <img src="./img/dec-store-1.png" />
+              </div>
+              <!-- card -->
+              <div
+                class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110"
+              >
+                <h1>Accountability Contract Network & Discord Bot- Pact.io</h1>
+                <img src="./img/loading.png" />
+              </div>
+              <!-- card -->
+              <div
+                class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110"
+              >
+                <h1>Jam Session Planning Mobile App - Jammi</h1>
+                <img src="./img/loading.png" />
+              </div>
+              <!-- card -->
+              <div
+                class="w-full md:w-5/12 lg:w-1/5 shadow-xl rounded-lg my-3 md:my-10 m-1 transition-all hover:scale-110"
+              >
+                <h1>Tracking Endangered Species - Omnimal</h1>
+                <img src="./img/loading.png" />
+              </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact -->
+    <div id="contact">
+        <div class="container mx-auto">
+            <!-- top -->
+            <div class="flex flex-col gap-3 items-center">
+                <h1 class="text-indigo-600 font-bold">CONTACT</h1>
+                <h1 class="text-3xl">How Can I Help?</h1>
+                <p class="w-1/2 text-center text-gray-400">
+                  Provide details below, and we can work together toward achieving your goals and finding
+                  a solution. Any job-related inquiries are welcome as well.
+                </p>
+            </div>
+            <!-- bottom -->
+            <form class="flex p-8 flex-col gap-5 items-center mt-5">
+                <input class="p-2 w-full md:w-1/2 ring-1 ring-indigo-500 rounded-sm" type="text" placeholder="Firstname Lastname (Pronouns)">
+                <input class="p-2 w-full md:w-1/2 ring-1 ring-indigo-500 rounded-sm" type="email" placeholder="Email">
+                <textarea class="p-2 w-full md:w-1/2 ring-1 ring-indigo-500 rounded-sm" cols="30" rows="10" placeholder="Message..."></textarea>
+                <button class="w-1/2 bg-indigo-600 text-white font-medium px-3 py-2 rounded-md cursor-pointer">Submit</button>
+            </form>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="w-full bg-black -z-10">
+        <div class="container mx-auto py-5 flex items-center justify-between">
+            <div class="flex items-center gap-6">
+                <img class="w-24 h-24 rounded-full" src="./img/logo-dark.png" alt=""/>
+                <span class="text-lg font-bold text-white">Joseph Giordano</span>
+            </div>
+            <span class="hidden md:block font-medium text-white">Ⓒ 2022. Portfolio Website.</span>
+            <div class="flex gap-3 z-20">
+                <a href="https://www.linkedin.com/in/joseph-giordano-71155816a/" target="_blank">
+                    <img class="w-8 bg-white rounded-full cursor-pointer" src="./img/linkedin.png" alt="">
+                </a>
+                <a href="https://medium.com/@joseph.giordano" target="_blank">
+                    <img class="w-8 bg-white rounded-full cursor-pointer" src="./img/medium.png" alt="">
+                </a>
+                <a href="https://github.com/joeygiordano13" target="_blank">
+                    <img class="w-8 bg-white rounded-full cursor-pointer" src="./img/github.png" alt="">
+                </a>
+                <a href="https://twitter.com/joey_giordano" target="_blank">
+                    <img class="w-8 bg-white rounded-full cursor-pointer" src="./img/twitter.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+    <script src="./autotyping.js"></script>
+</body>
+</html>
